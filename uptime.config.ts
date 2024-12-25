@@ -5,8 +5,6 @@ const pageConfig = {
   links: [
     { link: 'https://am.809098.xyz', label: '个人博客', highlight: true },
     { link: 'https://youtube.com/@AM_CLUB', label: 'AM科技' },
-    { link: 'https://github.com/amclubs', label: 'GitHub' },
-    { link: 'https://809098.xyz', label: 'Blog'},
   ],
 }
 
@@ -50,14 +48,12 @@ const workerConfig = {
     },
     // Example TCP Monitor
     {
-      id: '809098.xyz',
-      name: 'Blog',
+      id: 'qinglong',
+      name: '青龙',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://809098.xyz',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://809098.xyz',
+      target: 'https://ibeta-qinglong.hf.space',
       timeout: 10000,
     },
   ],
